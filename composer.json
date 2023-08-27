@@ -1,0 +1,83 @@
+{
+  "name" : "cl/courselib-develop",
+  "version" : "0.0.1",
+  "description": "CourseLib development project.",
+  "type" : "project",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Charles B. Owen",
+      "email": "cbowen@msu.edu"
+    }
+  ],
+  "autoload": {
+    "psr-4": {"CSE335\\": "course/cls/CSE335"}
+  },
+  "scripts": {
+    "cl-installer": "CL\\Site\\Install\\Installer::install"
+  },
+  "require" : {
+    "cl/tables": "dev-master",
+    "cl/site": "dev-master",
+    "cl/users": "dev-master",
+    "cl/course": "dev-master",
+    "cl/filesystem": "dev-master",
+    "cl/console": "dev-master",
+    "cl/grades": "dev-master",
+    "cl/step": "dev-master",
+    "cl/quiz": "dev-master",
+    "cl/interact": "dev-master",
+    "cl/review": "dev-master",
+    "cl/team": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/tables-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/site-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/users-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/course-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/filesystem-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/console-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/grades-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/step-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/team-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/quiz-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/interact-cl.git"
+    },
+    {
+      "type": "vcs",
+      "url": "https://github.com/charles-owen/review-cl.git"
+    }
+  ]
+}
